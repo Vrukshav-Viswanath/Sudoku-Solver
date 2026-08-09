@@ -1,1 +1,8 @@
-
+__pycache__/
+*.pyc
+data/digits/
+*.jpg
+*.png
+!tests/test_puzzle.jpg
+!tests/solved_test.jpg
+.venv/
