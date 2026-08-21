@@ -26,18 +26,5 @@ Upload a photo of a sudoku puzzle and get back the same photo with the solution 
    *back* through the inverse perspective matrix and composited onto the
    original photo. Only the cells that were originally blank get painted.
 
-## Usage
-
-```bash
-pip install -r requirements.txt
-python3 main.py path/to/puzzle.jpg output.jpg
-```
-
-To regenerate the training data and retrain the digit model from scratch:
-
-```bash
-python3 data/generate_digits.py
-python3 models/train_digit_cnn.py 12   # epochs
-```
 
 **Note**: This is currently a repository with no code in it. 
