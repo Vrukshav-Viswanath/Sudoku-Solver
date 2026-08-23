@@ -19,7 +19,8 @@ Upload a photo of a sudoku puzzle and get back the same photo with the solution 
    exact function is also used when generating training data, so the model
    never sees a scale/position distribution at inference that it didn't
    train on.
-5. **Solving** (`solver/solve.py`) - backtracking with an MRV heuristic: always branch on the emptiest cell first.
+5. **Solving** (`solver/solve.py`) - backtracking with an MRV (minimum
+   remaining values) heuristic: always branch on the emptiest cell first.
 6. **Overlay** (`vision/overlay.py`) - the solved digits are drawn onto a
    transparent layer in the warped grid's coordinate space, then warped
    *back* through the inverse perspective matrix and composited onto the
