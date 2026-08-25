@@ -39,5 +39,7 @@ To regenerate the training data and retrain the digit model from scratch:
 python3 data/generate_digits.py
 python3 models/train_digit_cnn.py 12   # epochs
 ```
+## Project structure
+
 
 **Note**: This is currently a repository with no code in it. 
