@@ -42,4 +42,4 @@ python3 models/train_digit_cnn.py 12   # epochs
 ## Project structure
 
 
-**Note**: This is currently a repository with no code in it. 
+This is currently a repository with no code in it. 
