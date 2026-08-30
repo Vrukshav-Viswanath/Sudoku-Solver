@@ -33,7 +33,7 @@ pip install -r requirements.txt
 python3 main.py /path/puzzle.jpg output.jpg
 ```
 
-To regenerate the training data and retrain the digit model from scratch:
+To retrain the digit model from scratch:
 
 ```bash
 python3 data/generate_digits.py
